@@ -8,7 +8,7 @@ public class SparGUI {
     private JButton saveButton;
     private JTextPane textPane1;
     private JTextField vectorValue;
-    private JButton retrieveButton;
+    private JButton searchButton;
     private JPanel panelMain;
     private JButton connectButton;
 
