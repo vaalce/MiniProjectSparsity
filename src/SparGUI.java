@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 
 
-public class SparGUI {
+public class SparGUI extends JFrame {
     private JTextField dimensionality;
     private JTextField peerID;
     private JButton saveButton;
@@ -13,9 +13,12 @@ public class SparGUI {
     private JButton connectButton;
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ClassNotFoundException, UnsupportedLookAndFeelException, InstantiationException, IllegalAccessException {
+
+        UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
         JFrame frame = new JFrame("SparGUI");
-        frame.setPreferredSize(new Dimension(600, 400));
+        frame.setTitle("Mini Project Sparsity");
+        frame.setPreferredSize(new Dimension(600, 500));
         frame.setContentPane(new SparGUI().panelMain);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
