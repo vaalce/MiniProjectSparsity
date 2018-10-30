@@ -3,7 +3,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.*;
 
-    public class Test {
+    public class ArrayLists {
         public static void main(String[] args) {
 
             String s = "1 1 1 0 0 1 0 1 0 0 0 0 0 1 1 1 1 1 0 1 0 0 0 1 1 0 1 1 1 0";
