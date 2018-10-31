@@ -6,7 +6,7 @@ import java.util.*;
     public class ArrayLists {
         public static void main(String[] args) {
 
-            String s = "1 1 1 0 0 1 0 1 0 0 0 0 0 1 1 1 1 1 0 1 0 0 0 1 1 0 1 1 1 0";
+            String s = "2 1 1 0 0 1 1 1 0 0 0 1 0 0 0 1 0 0 1 0 0 1 1 1 1 1 0 1 0 2";
             System.out.println(string2int(s));
             System.out.print(int2string(string2int(s)));
             //int[] result = string2int(s);
